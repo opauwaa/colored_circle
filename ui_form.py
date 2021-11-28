@@ -1,5 +1,3 @@
-
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -16,7 +14,6 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
-
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 

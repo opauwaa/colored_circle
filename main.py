@@ -31,7 +31,6 @@ class MyWidget(QWidget, Ui_Form):
     def run(self):
         self.repaint()
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyWidget()
