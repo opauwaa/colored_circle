@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QWidget, QApplication
 from PyQt5.QtCore import QPoint, Qt
 
 
-class MyWidget(QWidget,Ui_Form):
+class MyWidget(QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
@@ -24,7 +24,7 @@ class MyWidget(QWidget,Ui_Form):
         pen = QPen()
         pen.setWidth(4)
         qp.setBrush(Qt.NoBrush)
-        pen.setBrush(QColor(randint(0,255), randint(0,255), randint(0,255)))
+        pen.setBrush(QColor(randint(0, 255), randint(0, 255), randint(0, 255)))
         qp.setPen(pen)
         qp.drawEllipse(QPoint(300, 300), r, r)
 
